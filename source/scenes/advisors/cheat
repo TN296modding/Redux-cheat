@@ -1,6 +1,6 @@
 title: Cheat
 is-pinned-card: true 
-tags: advisor
+tags: advisor, reform
 card-image: img/portraits/BreitscheidRudolf.jpg
 new-page: true
 view-if: cheat_advisor = 1

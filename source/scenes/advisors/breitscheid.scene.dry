@@ -78,14 +78,14 @@ go-to: 1934_end
 @disable_end
 view-if: end_disabled != 1
 on-arrival: end_disabled = 1
-go-to: Cheat
+go-to: root
 
 The end date has been disabled.
 
 @enable_end
 view-if: end_disabled = 1
 on-arrival: end_disabled = 0
-go-to: Cheat
+go-to: root
 
 The end date has been enabled.
 
@@ -100,7 +100,7 @@ The end date has been enabled.
 - @returnsandbox: Return To Sandbox
 
 @add10resources
-go-to: Cheat
+go-to: root
 on-arrival: {!
 Q.resources += 10;
 !}
@@ -108,7 +108,7 @@ Q.resources += 10;
 Added 10 resources to the party's stockpile.
 
 @add20resources
-go-to: Cheat
+go-to: root
 on-arrival: {!
 Q.resources += 20;
 !}
@@ -116,7 +116,7 @@ Q.resources += 20;
 Added 20 resources to the party's stockpile.
 
 @add100resources
-go-to: Cheat
+go-to: root
 on-arrival: {!
 Q.resources += 100;
 !}
@@ -124,7 +124,7 @@ Q.resources += 100;
 Added 100 resources to the party's stockpile, stop being greedy.
 
 @subtract10resources
-go-to: Cheat
+go-to: root
 on-arrival: {!
 Q.resources -= 10;
 !}
@@ -132,7 +132,7 @@ Q.resources -= 10;
 Removed 10 resources from the party's stockpile.
 
 @subtract20resources
-go-to: Cheat
+go-to: root
 on-arrival: {!
 Q.resources -= 20;
 !}
@@ -140,7 +140,7 @@ Q.resources -= 20;
 Removed 20 resources from the party's stockpile.
 
 @subtract100resources
-go-to: Cheat
+go-to: root
 on-arrival: {!
 Q.resources -= 100;
 !}
@@ -158,7 +158,7 @@ Removed 100 resources from the party's stockpile. This doesn't go to the homeles
 - @returnsandbox: Return To Sandbox
 
 @add10budget
-go-to: Cheat
+go-to: root
 on-arrival: {!
 Q.budget += 10;
 !}
@@ -166,7 +166,7 @@ Q.budget += 10;
 Added 10 budget to the country's stockpile.
 
 @add20budget
-go-to: Cheat
+go-to: root
 on-arrival: {!
 Q.budget += 20;
 !}
@@ -174,7 +174,7 @@ Q.budget += 20;
 Added 20 budget to the country's stockpile.
 
 @add100budget
-go-to: Cheat
+go-to: root
 on-arrival: {!
 Q.budget += 100;
 !}
@@ -182,7 +182,7 @@ Q.budget += 100;
 Added 100 budget to the country's stockpile, stop being greedy.
 
 @subtract10budget
-go-to: Cheat
+go-to: root
 on-arrival: {!
 Q.budget -= 10;
 !}
@@ -190,7 +190,7 @@ Q.budget -= 10;
 Removed 10 budget from the country's stockpile.
 
 @subtract20budget
-go-to: Cheat
+go-to: root
 on-arrival: {!
 Q.budget -= 20;
 !}
@@ -198,7 +198,7 @@ Q.budget -= 20;
 Removed 20 budget from the country's stockpile.
 
 @subtract100budget
-go-to: Cheat
+go-to: root
 on-arrival: {!
 Q.budget -= 100;
 !}
@@ -706,7 +706,7 @@ Q.neorevisionist_strength = 0;
 Removed all neorevisionist strength.
 
 @returnsandbox
-go-to: sandbox_menu
+go-to: root
 
 @editironfront
 

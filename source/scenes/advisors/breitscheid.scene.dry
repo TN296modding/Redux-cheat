@@ -14,6 +14,21 @@ Breitscheid is a long-time SPD leader, who was at one time part of the anti-war 
 - @party_discipline
 - @snap_election
 - @end_game
+- @disable_end: Disable End In 1934
+- @enable_end: Enable End In 1934
+- @editresources: Edit Resources
+- @editbudget: Edit Budget
+- @editrelations: Edit Party Relations
+- @editpartysupport: Edit Party Support
+- @miscparty: Miscellaneous Party Options
+- @editleft: Edit Left Faction Of SPD
+- @editcenter: Edit Center Faction of SPD
+- @editlabor: Edit Labor Faction of SPD
+- @editreformist: Edit Reformist Faction of SPD
+- @editneorevisionist: Edit Neorevisionist Faction of SPD
+- @editironfront: Edit Iron Front
+- @editparamilitary: Edit Paramilitary Groups
+- @editreichswehr: Edit Reichswehr and Police
 - @root: Return to main
 
 @breitscheid_international
